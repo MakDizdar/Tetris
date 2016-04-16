@@ -15,8 +15,6 @@ import java.awt.event.ActionEvent;
 /*This is the main method of running the tetris game.*/
 public final class BoardTest
 {
-    //private Board board;
-
     private BoardTest() {
 
     }

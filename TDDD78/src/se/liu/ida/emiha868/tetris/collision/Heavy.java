@@ -58,6 +58,8 @@ public class Heavy implements CollisionHandler
 	    board.collapse(ycords);
 	    return false;
 	}else{
+	    /*knockDown is called whenever a falling poly has fallen, and it knocks down
+	     * the bricks which the falling has fallen upon*/
 	    if(board.polyWasDescending()){
 		board.knockDown();
 	    }
@@ -72,10 +74,6 @@ public class Heavy implements CollisionHandler
 
 
 
-    //    /*This function is called whenever a falling poly has fallen, and it knocks down
-    //    * the bricks which the falling has fallen upon*/
-    //    public void changeBoard(Board board){
-    //	board.knockDown();
-    //    }
+
 
 }
