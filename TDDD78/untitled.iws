@@ -5,10 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/gui/ScoreComponent.java" line="21" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0eebd2b-8687-4de6-b690-90e28a734020" name="Default" comment="I have revieweved my code and added documentation with comments,&#10;I am still unaware of how I am supposed to create javadocs.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/BoardTest.java" afterPath="$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/BoardTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/collision/Heavy.java" afterPath="$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/collision/Heavy.java" />
-    </list>
+    <list default="true" id="e0eebd2b-8687-4de6-b690-90e28a734020" name="Default" comment="I have revieweved my code and added documentation with comments,&#10;I am still unaware of how I am supposed to create javadocs." />
     <list id="773a0c02-4194-4422-9e71-a7c4b36e2625" name="Rejected commit: Default" comment="The project can be considerd completed,&#10;The implementation of the Heavy powerup is heavily&#10;complicated and there is a better way to implement it.&#10;&#10;I have cleaned the files up, added some comments to help me remind me of how my code works.&#10;&#10;I have learned that the INSTANCE of a singletons getinstance() is a pointer and that way it works like a global variable that can be sent back and forth. &#10;&#10;I have also learned that i did not implement the Strategy Pattern design by writing a compareTo() for the HighScore function similar to what i did in lab 2. That works for now but is not the way for future maintenance, if you want to reverse sort, it will be tricky. Thusly, I am gonna implement a ScoreComparator which I considered to be unnecessary." />
     <list id="fe5a179e-10df-4345-8d78-c363ad453d27" name="Rejected commit: Default (2)" comment="I have made improvements in the collisionhandler, but still. &#10;My state pattern design is not full, the powerups determine also what happens when a poly has fallen, which is implemeneted in the collisionhandler interface.&#10;I should probably make a fallinglistener interface" />
     <ignored path="untitled.iws" />
@@ -52,53 +49,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/board/Board.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="372" column="6" selection-start-line="372" selection-start-column="6" selection-end-line="372" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BoardToTextConvert.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/ztroubleshoot/BoardToTextConvert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
-              <folding>
-                <marker date="1459544725121" expanded="true" signature="2082:2087" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Heavy.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Heavy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/collision/Heavy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27821523">
-              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Move.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/board/Move.java">
+      <file leaf-file-name="CollisionHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/collision/CollisionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SquareType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/SquareType.java">
+      <file leaf-file-name="ScoreComponent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/gui/ScoreComponent.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultCollisionHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/collision/DefaultCollisionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Fallthrough.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/collision/Fallthrough.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,21 +109,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TetrisComponent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/gui/TetrisComponent.java">
+      <file leaf-file-name="TetrisFrame.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/gui/TetrisFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8267717">
+              <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TetrisFrame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/gui/TetrisFrame.java">
+      <file leaf-file-name="TetrisComponent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/gui/TetrisComponent.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -189,9 +184,6 @@
         <option value="$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/KnockDown.java" />
         <option value="$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/DefaultFallenHandler.java" />
         <option value="$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/board/Board.java" />
-        <option value="$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/collision/CollisionHandler.java" />
-        <option value="$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/collision/DefaultCollisionHandler.java" />
-        <option value="$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/collision/Fallthrough.java" />
         <option value="$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/gui/BoardListener.java" />
         <option value="$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/gui/TetrisFrame.java" />
         <option value="$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/highscore/HighScoreList.java" />
@@ -205,6 +197,9 @@
         <option value="$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/board/Move.java" />
         <option value="$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/BoardTest.java" />
         <option value="$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/collision/Heavy.java" />
+        <option value="$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/collision/CollisionHandler.java" />
+        <option value="$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/collision/DefaultCollisionHandler.java" />
+        <option value="$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/collision/Fallthrough.java" />
       </list>
     </option>
   </component>
@@ -251,8 +246,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -379,7 +375,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -995,6 +990,7 @@
       <workItem from="1460819438639" duration="131000" />
       <workItem from="1460821669469" duration="30000" />
       <workItem from="1460821775935" duration="128000" />
+      <workItem from="1460822218752" duration="67000" />
     </task>
     <task id="LOCAL-00001" summary="sdfasfdasd">
       <created>1455618416605</created>
@@ -1054,7 +1050,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="314330000" />
+    <option name="totallyTimeSpent" value="314397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-14" y="-14" width="3228" height="1738" extended-state="6" />
@@ -1423,51 +1419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/collision/CollisionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/collision/DefaultCollisionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/collision/Fallthrough.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/gui/ScoreComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/gui/BoardListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/gui/TetrisFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/ztroubleshoot/BoardToTextConvert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1490,14 +1441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/gui/TetrisComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1526,10 +1469,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/collision/CollisionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/collision/DefaultCollisionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/collision/Fallthrough.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/collision/Heavy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27821523">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/gui/BoardListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/gui/ScoreComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/gui/TetrisComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiha868/tetris/gui/TetrisFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8267717">
+          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
           <folding />
         </state>
       </provider>

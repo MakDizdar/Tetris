@@ -33,8 +33,5 @@ public class DefaultCollisionHandler implements CollisionHandler
 	return "Default";
     }
 
-/// /    public void changeBoard(Board board){
-//	board.insertFallenBlock();
-//    }
 
 }

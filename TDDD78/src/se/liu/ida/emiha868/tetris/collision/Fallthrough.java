@@ -34,6 +34,5 @@ public class Fallthrough implements CollisionHandler
 	return "Fallthrough";
     }
 
-//    public void changeBoard(Board board){
-//	board.insertFallenBlock();
+
 }
